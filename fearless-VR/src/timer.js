@@ -12,7 +12,7 @@ export class TimerBox {
 		this.createTimerBox();
 		this.scene.add(this.group);
 
-		this.group.position.set(0, 0.7, -1);
+		this.group.position.set(0, 0.7, -2);
 		this.group.rotation.x = -0.2;
 
 		// Start the timer 2 seconds after page load

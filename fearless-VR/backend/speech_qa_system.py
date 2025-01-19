@@ -22,7 +22,7 @@ def text_to_speech(question):
     # Wait for the speech to finish before closing the engine
     engine.runAndWait()
 
-def generate_question_from_text(transcription):
+def generate_question_from_text():
     """
     Generates a single question from the provided text using Google's Gemini API.
 
@@ -32,7 +32,7 @@ def generate_question_from_text(transcription):
     Returns:
         str: The generated question.
     """
-    transcription = "Hockey is more than just a sport; its a celebration of speed, skill, and teamwork. Known as one of the fastest games on ice, hockey has captured the hearts of millions around the world. From its humble beginnings in Canada in the 19th century to becoming a global phenomenon, hockey symbolizes passion and resilience."
+    transcription = "Hockey is more than just a sport; its a celebration of speed, skill, and teamwork. Known as one of the fastest games on ice, hockey has captured the hearts of millions around the world. From its humble beginnings in Canada in the 19th century to becoming a global phenomenon, hockey symbolizes passion and resilience. Hockey is more than just a sport; its a celebration of speed, skill, and teamwork. Known as one of the fastest games on ice, hockey has captured the hearts of millions around the world. From its humble beginnings in Canada in the 19th century to becoming a global phenomenon, hockey symbolizes passion and resilience. Hockey is more than just a sport; its a celebration of speed, skill, and teamwork. Known as one of the fastest games on ice, hockey has captured the hearts of millions around the world. From its humble beginnings in Canada in the 19th century to becoming a global phenomenon, hockey symbolizes passion and resilience."
     
     prompt = (
         f"The following is a transcript of a speech:\n\n"

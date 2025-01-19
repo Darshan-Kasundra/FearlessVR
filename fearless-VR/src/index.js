@@ -9,7 +9,10 @@ import { init } from './init.js';
 import { io } from 'socket.io-client';
 
 // Socket.IO setup
-const socket = io();
+const socket = io('http://127.0.0.1:5000', {
+	transports: ['websocket', 'polling'],
+  });
+  
 
 // Speech recognition variables
 let isRecording = false;
