@@ -1,4 +1,4 @@
-# VR Public Speaking Simulator 🎤🕶️
+# VR Public Speaking Simulator
 
 ## Overview  
 This project was built during a 36-hour hackathon to help people overcome their fear of public speaking. Using the **Meta Quest 3** headset and an AI-powered backend, we created an immersive VR experience that simulates presenting in front of a live audience.  
