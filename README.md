@@ -3,7 +3,7 @@
 ## Overview  
 This project was built during a 36-hour hackathon to help people overcome their fear of public speaking. Using the **Meta Quest 3** headset and an AI-powered backend, we created an immersive VR experience that simulates presenting in front of a live audience.  
 
-Users can deliver speeches in a virtual auditorium filled with 100–200 audience members, receive **real-time AI-generated questions**, and practice handling Q&A sessions in a realistic, low-stakes environment.
+Users can deliver speeches in a virtual auditorium filled with 5-6 audience members, receive **real-time AI-generated questions**, and practice handling Q&A sessions in a realistic, low-stakes environment.
 
 ---
 
